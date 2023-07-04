@@ -112,56 +112,189 @@
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="/penugasan" class="menu-link">
-                    <div data-i18n="Without menu">Daftar Penugasan</div>
+                  <a href="/surat-izin-penelitian/masuk" class="menu-link">
+                    <div data-i18n="Without menu">Pengajuan Masuk</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="/surat-izin-penelitian/proses" class="menu-link">
+                    <div data-i18n="Without menu">Surat Proses</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="/surat-izin-penelitian/selesai" class="menu-link">
+                    <div data-i18n="Without menu">Surat Selesai</div>
                   </a>
                 </li>
               </ul>
             </li>      
 
             <li class="menu-item <?= $active == "Surat Rekomendasi Penelitian" ? "active" : "" ?>">
-              <a href="/surat-rekomendasi-penelitian" class="menu-link">
-              <i class='menu-icon tf-icons bx bx-envelope' ></i>
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+              <i class='menu-icon tf-icons bx bx-food-menu'></i>
                 <div data-i18n="Boxicons">Surat Rekomendasi Penelitian</div>
               </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="/surat-izin-penelitian/masuk" class="menu-link">
+                    <div data-i18n="Without menu">Pengajuan Masuk</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="/surat-izin-penelitian/proses" class="menu-link">
+                    <div data-i18n="Without menu">Surat Proses</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="/surat-izin-penelitian/selesai" class="menu-link">
+                    <div data-i18n="Without menu">Surat Selesai</div>
+                  </a>
+                </li>
+              </ul>
             </li>         
 
             <li class="menu-item <?= $active == "surat keterangan bebas plagiat" ? "active" : "" ?>">
-              <a href="/surat-keterangan-bebas-plagiat" class="menu-link">
-                <i class='menu-icon tf-icons bx bx-envelope' ></i>
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class='menu-icon tf-icons bx bx-food-menu'></i>
                 <div data-i18n="Boxicons">Surat Keterangan Bebas Plagiat</div>
               </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="/surat-keterangan-bebas-plagiat/masuk" class="menu-link">
+                    <div data-i18n="Without menu">Pengajuan Masuk</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="/surat-keterangan-bebas-plagiat/proses" class="menu-link">
+                    <div data-i18n="Without menu">Surat Proses</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="/surat-keterangan-bebas-plagiat/selesai" class="menu-link">
+                    <div data-i18n="Without menu">Surat Selesai</div>
+                  </a>
+                </li>
+              </ul>
             </li>   
 
             <li class="menu-item <?= $active == "Surat Keterangan Lulus" ? "active" : "" ?>">
-              <a href="/surat-keterangan-lulus" class="menu-link">
-                <i class='menu-icon tf-icons bx bx-envelope' ></i>
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class='menu-icon tf-icons bx bx-food-menu'></i>
                 <div data-i18n="Boxicons">Surat Keterangan Lulus</div>
               </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="/surat-keterangan-lulus/masuk" class="menu-link">
+                    <div data-i18n="Without menu">Pengajuan Masuk</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="/surat-keterangan-lulus/proses" class="menu-link">
+                    <div data-i18n="Without menu">Surat Proses</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="/surat-keterangan-lulus/selesai" class="menu-link">
+                    <div data-i18n="Without menu">Surat Selesai</div>
+                  </a>
+                </li>
+              </ul>
             </li>   
+
             <li class="menu-item <?= $active == "Surat Keterangan Aktif Kuliah" ? "active" : "" ?>">
-              <a href="/surat-keterangan-aktif-kuliah" class="menu-link">
-                <i class='menu-icon tf-icons bx bx-envelope' ></i>
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class='menu-icon tf-icons bx bx-food-menu'></i>
                 <div data-i18n="Boxicons">Surat Keterangan Aktif Kuliah</div>
               </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="/surat-keterangan-aktif-kuliah/masuk" class="menu-link">
+                    <div data-i18n="Without menu">Pengajuan Masuk</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="/surat-keterangan-aktif-kuliah/proses" class="menu-link">
+                    <div data-i18n="Without menu">Surat Proses</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="/surat-keterangan-aktif-kuliah/selesai" class="menu-link">
+                    <div data-i18n="Without menu">Surat Selesai</div>
+                  </a>
+                </li>
+              </ul>
             </li>   
+
             <li class="menu-item <?= $active == "Surat Keterangan Akreditas" ? "active" : "" ?>">
-              <a href="/surat-keterangan-akreditas" class="menu-link">
-                <i class='menu-icon tf-icons bx bx-envelope' ></i>
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class='menu-icon tf-icons bx bx-food-menu'></i>
                 <div data-i18n="Boxicons">Surat Keterangan Akreditas</div>
               </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="/surat-keterangan-akreditas/masuk" class="menu-link">
+                    <div data-i18n="Without menu">Pengajuan Masuk</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="/surat-keterangan-akreditas/proses" class="menu-link">
+                    <div data-i18n="Without menu">Surat Proses</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="/surat-keterangan-akreditas/selesai" class="menu-link">
+                    <div data-i18n="Without menu">Surat Selesai</div>
+                  </a>
+                </li>
+              </ul>
             </li>   
+
             <li class="menu-item <?= $active == "Surat Keterangan Telah Diwisuda" ? "active" : "" ?>">
-              <a href="/surat-keterangan-telah-diwisuda" class="menu-link">
-                <i class='menu-icon tf-icons bx bx-envelope' ></i>
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class='menu-icon tf-icons bx bx-food-menu'></i>
                 <div data-i18n="Boxicons">Surat Keterangan Telah Diwisuda</div>
               </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="/surat-keterangan-telah-diwisuda/masuk" class="menu-link">
+                    <div data-i18n="Without menu">Pengajuan Masuk</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="/surat-keterangan-telah-diwisuda/proses" class="menu-link">
+                    <div data-i18n="Without menu">Surat Proses</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="/surat-keterangan-telah-diwisuda/selesai" class="menu-link">
+                    <div data-i18n="Without menu">Surat Selesai</div>
+                  </a>
+                </li>
+              </ul>
             </li>   
+
             <li class="menu-item <?= $active == "Surat Penunjukan Pembimbing Tesis" ? "active" : "" ?>">
-              <a href="/surat-penunjukan-pembimbing-tesis" class="menu-link">
-                <i class='menu-icon tf-icons bx bx-envelope' ></i>
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class='menu-icon tf-icons bx bx-food-menu'></i>
                 <div data-i18n="Boxicons">Surat Penunjukan Pembimbing Tesis</div>
               </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="/surat-penunjukan-pembimbing-tesis/masuk" class="menu-link">
+                    <div data-i18n="Without menu">Pengajuan Masuk</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="/surat-penunjukan-pembimbing-tesis/proses" class="menu-link">
+                    <div data-i18n="Without menu">Surat Proses</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="/surat-penunjukan-pembimbing-tesis/selesai" class="menu-link">
+                    <div data-i18n="Without menu">Surat Selesai</div>
+                  </a>
+                </li>
+              </ul>
             </li>   
 
         

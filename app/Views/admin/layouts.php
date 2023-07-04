@@ -82,7 +82,7 @@
               <span class="app-brand-logo demo">
                 <img src="<?= base_url() ?>/thumbnail/logosima.png" alt="" width="50">
                </span>
-              <span class="app-brand-text demo menu-text fw-bolder ms-2">PASCA</span>
+              <span class="app-brand-text demo menu-text fw-bolder ms-2">PASCASARJANA</span>
             </a>
 
             <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">

@@ -80,9 +80,9 @@
           <div class="app-brand demo">
             <a href="index.html" class="app-brand-link">
               <span class="app-brand-logo demo">
-                <img src="<?= base_url() ?>/thumbnail/logosima.png" alt="" width="50">
+                <img src="<?= base_url() ?>/assets/img/pasca/pasca2.png" alt="" width="180">
                </span>
-              <span class="app-brand-text demo menu-text fw-bolder ms-2">PASCASARJANA</span>
+              <!-- <span class="app-brand-text demo menu-text fw-bolder ms-2">PASCASARJANA</span> -->
             </a>
 
             <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
@@ -98,6 +98,14 @@
               <a href="/" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
                 <div data-i18n="Analytics">Dashboard</div>
+              </a>
+            </li>
+
+            <!-- dokumentasi -->
+            <li class="menu-item">
+            <a href="/documentation" class="menu-link">
+                <i class='menu-icon tf-icons bx bx-file-find'></i>
+                <div data-i18n="Boxicons">dokumentasi</div>
               </a>
             </li>
 
@@ -307,12 +315,7 @@
                 <div data-i18n="Boxicons">Support</div>
               </a>
             </li>
-            <li class="menu-item">
-            <a href="/documentation" class="menu-link">
-                <i class='menu-icon tf-icons bx bx-file-find'></i>
-                <div data-i18n="Boxicons">dokumentasi</div>
-              </a>
-            </li>
+            
             <li class="menu-item">
             <a href="/logout" class="menu-link">
             <i class='menu-icon tf-icons bx bx-log-out' ></i>
